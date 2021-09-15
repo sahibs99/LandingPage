@@ -1,0 +1,128 @@
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #3AAFA9;
+    color: #FEFFFF;
+}
+
+.main-logo{
+    margin-left: 10px;
+}
+
+.nav-bar{
+    background-color: #2B7A78;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 90px;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 75vw;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.email-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email-input{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 25px;
+}
+
+.feature-div{
+    margin: 20px;
+    background-color: #DEF2F1;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 150px;
+    border: 2px black solid;
+}
+
+.image-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 70px;
+    margin-left: 120px;
+    margin-right: 195px;
+    margin-top: 35px;
+    background-color: #2B7A78;
+}
+
+.desc-div{
+    background-color: #2B7A78;
+    width: 600px;
+    height: auto;
+}
+
+.price-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 45px;
+}
+
+.price-div{
+    background-color: #aeb3b3;
+    width: 300px;
+    height: 295px;
+}
+
+.inner-price-div{
+    width: auto;
+    height: auto;
+    background-color: #2B7A78;
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2B7A78;
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+}
+
+.header-div{
+    margin-left: 200px;
+}
+
+.sign-up-button{
+    background-color: #aeb3b3;
+    height: 25px;
+    width: 115px;
+    border: 2px black solid;
+    cursor: pointer;
+    margin-right: 300px;
+}
